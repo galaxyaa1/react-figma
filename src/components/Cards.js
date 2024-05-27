@@ -1,33 +1,34 @@
 import React from 'react';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
+import '../App.css';
 import SearchDoctor from '../Assets/Group.png';
 import OnlinePharmacy from '../Assets/Frame.png';
 import Consultation from '../Assets/Frame1.png';
 import DetailsInfo from '../Assets/Frame2.png';
 import EmergencyCare from '../Assets/Frame3.png';
 import Tracking from '../Assets/Group1.png';
-const Cards: React.FC = () => {
+const Cards = () => {
   return (
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-4 mb-4">
           <Card className="card h-100">
-            <img src={SearchDoctor} alt="Search Doctor" />
+            <img src={SearchDoctor} alt="" />
             <h2>Search doctor</h2>
             <p>Choose your doctor from thousands of specialists, general, and trusted hospitals</p>
           </Card>
         </div>
         <div className="col-md-4 mb-4">
           <Card className="card h-100">
-            <img src={OnlinePharmacy} alt="Online Pharmacy" />
-            <h2 className="mt-1">Online pharmacy</h2>
+            <img src={OnlinePharmacy} alt="" />
+            <h2 className='mt-1'>Online pharmacy</h2>
             <p>Buy your medicines with our mobile application with a simple delivery system</p>
           </Card>
         </div>
         <div className="col-md-4 mb-4">
           <Card className="card h-100">
-            <img src={Consultation} alt="Consultation" />
+            <img src={Consultation} alt="" />
             <h2>Consultation</h2>
             <p>Free consultation with our trusted doctors and get the best recommendations</p>
           </Card>
@@ -36,21 +37,21 @@ const Cards: React.FC = () => {
       <div className="row">
         <div className="col-md-4 mb-4">
           <Card className="card h-100">
-            <img src={DetailsInfo} alt="Details Info" />
+            <img src={DetailsInfo} alt="" />
             <h2>Details info</h2>
             <p>Free consultation with our trusted doctors and get the best recommendations</p>
           </Card>
         </div>
         <div className="col-md-4 mb-4">
           <Card className="card h-100">
-            <img src={EmergencyCare} alt="Emergency Care" />
-            <h2 className="mt-4">Emergency care</h2>
+            <img src={EmergencyCare} alt="" />
+            <h2 className='mt-4'>Emergency care</h2>
             <p>You can get 24/7 urgent care for yourself or your children and your lovely family</p>
           </Card>
         </div>
         <div className="col-md-4 mb-4">
           <Card className="card h-100">
-            <img src={Tracking} alt="Tracking" />
+            <img src={Tracking} alt="" />
             <h2>Tracking</h2>
             <p>Track and save your medical history and health data</p>
           </Card>

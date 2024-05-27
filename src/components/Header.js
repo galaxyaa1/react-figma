@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../Assets/logo.png';
-const Header: React.FC = () => {
+
+const NavigationBar: React.FC = () => {
   return (
-    <Navbar  expand="lg" className='navbar '>
-      <Navbar.Brand >
+    <Navbar expand="lg" className="px-5">
+      <Navbar.Brand className="brand ms-5">
         <Link to="/">
           <img
-            src={logo}
+            src='/'
             height="30"
-            className="d-inline-block align-top ms-5"
+            className="d-inline-block align-top"
             alt="Logo"
           />
         </Link>
@@ -23,10 +23,12 @@ const Header: React.FC = () => {
           <Link to="/find-a-doctor" className="nav-link" style={{ marginRight: '10px' }}>find a doctor</Link>
           <Link to="/apps" className="nav-link" style={{ marginRight: '10px' }}>Apps</Link>
           <Link to="/testimonials" className="nav-link" style={{ marginRight: '10px' }}>Testimonials</Link>
-          <Link to="/about-us" className="nav-link" style={{ marginRight: '10px' }}>About us</Link> 
+          <Link to="/about-us" className="nav-link" style={{ marginRight: '10px' }}>About us</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   );
 };
-export default Header;
+
+export default NavigationBar;
+

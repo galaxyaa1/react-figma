@@ -1,7 +1,7 @@
 import React from 'react';
 import image from '../Assets/Frame4.png';
 import { Button } from 'primereact/button';
-const MobileApps: React.FC = () => {
+const Apps = () => {
   return (
     <div className="container d-flex justify-content-around app">
       <div className="row">
@@ -20,4 +20,4 @@ const MobileApps: React.FC = () => {
     </div>
   );
 };
-export default MobileApps;
+export default Apps;
