@@ -1,7 +1,7 @@
 import React from 'react';
 import HealthCare from '../Assets/logo1.png';
 import { Button } from 'primereact/button';
-const HealthProviders = () => {
+const HealthProviders: React.FC = () => {
   return (
     <div className=" healthcare container d-flex justify-content-around">
        <div className="row ">

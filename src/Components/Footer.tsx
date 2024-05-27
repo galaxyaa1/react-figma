@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../Assets/T.png';
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className='footer container-fluid mt-5'>
       <div className='row justify-content-around'>

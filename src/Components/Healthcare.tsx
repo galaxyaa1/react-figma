@@ -1,7 +1,7 @@
 import React from 'react';
 import Illustration from '../Assets/illustration.png';
 import { Button } from 'primereact/button';
-const Healthcare = () => {
+const Healthcare: React.FC = () => {
   return (
     <div className="container d-flex justify-content-between apps">
       <div className="row">
@@ -21,4 +21,3 @@ const Healthcare = () => {
 };
 
 export default Healthcare;
-
